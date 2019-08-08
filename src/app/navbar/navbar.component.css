@@ -1,0 +1,7 @@
+.navbar {
+    background-color: var(--app-color);
+}
+
+.logo-navbar {
+    margin: 20px;
+}

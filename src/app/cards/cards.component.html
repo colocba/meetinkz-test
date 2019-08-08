@@ -1,0 +1,18 @@
+<div class="container">
+        <div *ngIf="currentVenues.lenght != 0; then cardsBlock; else noResult"></div>
+        <ng-template #cardsBlock>
+                <div *ngFor="let venue of currentVenues; let i = index">
+                        <div *ngIf="i%2 == 0" class="row">
+                            <div *ngIf="i < currentVenues.length">
+                                <app-card style="float: left" [venueObject]="currentVenues[i]"></app-card>
+                            </div>
+                            <div *ngIf="i + 1 < currentVenues.length">
+                                <app-card style="float: right" [venueObject]="currentVenues[i+1]"></app-card>
+                            </div>
+                        </div>
+                    </div>
+        </ng-template>
+        <ng-template #noResult>
+            <h1>NO RESULTS</h1>
+        </ng-template>
+</div>

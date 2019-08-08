@@ -1,0 +1,16 @@
+<div class="container" (click)="cardClicked(this)">
+    <div [id]="venueObject.id" class="card text-center" [ngStyle]="isClicked ? shadowedCard : normalCard">
+        <div class="img-div">
+            <img class="card-img-top fixed-size" src="{{venueObject.mainPhotoUrl}}" alt="">
+            <!-- <h4 class="bottom-right"></h4> -->
+            <p class="bottom-right price-label">{{venueObject.currency | toCurrency}}{{venueObject.ratePerHour}} / per hour.</p>
+            <h5 class="top-left max-people-label"><i class="fas fa-user-friends"></i> {{venueObject.maxParticipants}}</h5>
+        </div>
+        <div class="card-body">
+            <p>{{venueObject.name}}</p>
+        </div>
+        <div class="card-footer text-muted">
+            <p><span><i class="fas fa-map-marker-alt margin-right-10"></i></span>{{venueObject.city}}, {{venueObject.countryFullName}}</p>
+        </div>
+    </div>
+</div>

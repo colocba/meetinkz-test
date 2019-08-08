@@ -1,0 +1,35 @@
+.marg-right-10 {
+    margin-right: 10px;
+}
+
+.add-filters-button i {
+    color: var(--app-color);
+    cursor: pointer;
+}
+
+.sticky-top {
+    top: 90px !important;
+    z-index: 5;
+}
+
+.filter-elements {
+    padding: 25px 25px 5px 25px;
+    background-color: whitesmoke;
+    -webkit-box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.75);
+}
+
+.margin-top-15 {
+    margin-top: 15px;
+}
+
+.margin-top-20 {
+    margin-top: 20px;
+}
+
+@media (max-width: 1300px) {
+    .mat-form-field {
+        display: block;
+    }
+}

@@ -1,0 +1,20 @@
+.cards-div {
+    width: 55%;
+    z-index: 995;
+    position: relative;
+    /* float: left; */
+    display: inline-block;
+    width: 55%;
+    z-index: 10;
+}
+
+.map-div {
+    height:100vh;
+    position: fixed;
+    top: 0;
+    padding-top: 50px;
+    /* float: left; */
+    display: inline-block;
+    width: 45%;
+    z-index: 10;
+}
