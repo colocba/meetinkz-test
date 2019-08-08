@@ -57,6 +57,11 @@ Therefore, I had to make a bunch of services for the comunication between them.
 
 Learning all the new stuff took me a while as well like making a new api key for google maps, learning their Api and even making a document like this one is not easy :)
 
+## Devices adaptation
+
+This app is not able for mobile devices! I haven't had much time for making it posible.
+The app is available for large (21.5") screens and medium screens (13, 15" Laptops).
+
 ## URL
 
 You can enter the app hosted by Github pages [by clicking here](https://colocba.github.io/meetinkz-test/)
