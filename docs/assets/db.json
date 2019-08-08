@@ -1,0 +1,1111 @@
+{
+    "r": [
+        {
+            "id": 1748,
+            "name": "Charing Cross 101 Meeting Room in the Strand",
+            "status": 2,
+            "countryFullName": "United Kingdom",
+            "city": "London",
+            "mainPhotoUrl": "https://res.cloudinary.com/meetinkz-dev/image/upload/f_auto,q_auto/v1564387121/Venue_1748/Venue_1748_Charing-Cross.jpg.jpg",
+            "ratePerHour": 78.00,
+            "currency": 2,
+            "lat": 51.5083405,
+            "lon": -0.12659810022002381,
+            "maxParticipants": 4,
+            "ratingAvg": null,
+            "distance": 0.13637257717244053,
+            "pricePackages": [],
+            "timeSlotsPricings": [],
+            "countryRegionId": 69,
+            "relatedServiceProviders": [
+                {
+                    "id": 169,
+                    "name": "Regus Strand",
+                    "status": 2,
+                    "countryCode": "gb",
+                    "logoImage": null,
+                    "contactPersonName": "Front Desk",
+                    "phone": " +44 (0) 207 484 5000",
+                    "email": "recep.strand@regus.com",
+                    "pricePackages": [],
+                    "packagePriceIncludesDelivery": null
+                }
+            ]
+        },
+        {
+            "id": 1901,
+            "name": "St. James Meeting Room in the Strand",
+            "status": 2,
+            "countryFullName": "United Kingdom",
+            "city": "London",
+            "mainPhotoUrl": "https://res.cloudinary.com/meetinkz-dev/image/upload/f_auto,q_auto/v1564387754/Venue_1901/Venue_1901_Regus-Strand-Golden-Cross-House-013.jpg.jpg",
+            "ratePerHour": 107.00,
+            "currency": 2,
+            "lat": 51.5293405,
+            "lon": -0.12659810000002381,
+            "maxParticipants": 8,
+            "ratingAvg": null,
+            "distance": 0.13637257717244053,
+            "pricePackages": [],
+            "timeSlotsPricings": [],
+            "countryRegionId": null,
+            "relatedServiceProviders": [
+                {
+                    "id": 169,
+                    "name": "Regus Strand",
+                    "status": 2,
+                    "countryCode": "gb",
+                    "logoImage": null,
+                    "contactPersonName": "Front Desk",
+                    "phone": " +44 (0) 207 484 5000",
+                    "email": "recep.strand@regus.com",
+                    "pricePackages": [],
+                    "packagePriceIncludesDelivery": null
+                }
+            ]
+        },
+        {
+            "id": 1902,
+            "name": "Whitehall Meeting Room in the Strand",
+            "status": 2,
+            "countryFullName": "United Kingdom",
+            "city": "London",
+            "mainPhotoUrl": "https://res.cloudinary.com/meetinkz-dev/image/upload/f_auto,q_auto/v1564388031/Venue_1902/Venue_1902_Regus-Strand-Golden-Cross-House-021.jpg.jpg",
+            "ratePerHour": 107.00,
+            "currency": 2,
+            "lat": 51.5083405,
+            "lon": -0.12659810110002381,
+            "maxParticipants": 8,
+            "ratingAvg": null,
+            "distance": 0.13637257717244053,
+            "pricePackages": [],
+            "timeSlotsPricings": [],
+            "countryRegionId": null,
+            "relatedServiceProviders": [
+                {
+                    "id": 169,
+                    "name": "Regus Strand",
+                    "status": 2,
+                    "countryCode": "gb",
+                    "logoImage": null,
+                    "contactPersonName": "Front Desk",
+                    "phone": " +44 (0) 207 484 5000",
+                    "email": "recep.strand@regus.com",
+                    "pricePackages": [],
+                    "packagePriceIncludesDelivery": null
+                }
+            ]
+        },
+        {
+            "id": 1903,
+            "name": "Strand Meeting Room in the Strand",
+            "status": 2,
+            "countryFullName": "United Kingdom",
+            "city": "London",
+            "mainPhotoUrl": "https://res.cloudinary.com/meetinkz-dev/image/upload/f_auto,q_auto/v1564388251/Venue_1903/Venue_1903_Strand.jpg.jpg",
+            "ratePerHour": 162.00,
+            "currency": 2,
+            "lat": 51.5083405,
+            "lon": -0.12659899000002381,
+            "maxParticipants": 14,
+            "ratingAvg": null,
+            "distance": 0.13637257717244053,
+            "pricePackages": [],
+            "timeSlotsPricings": [],
+            "countryRegionId": null,
+            "relatedServiceProviders": [
+                {
+                    "id": 169,
+                    "name": "Regus Strand",
+                    "status": 2,
+                    "countryCode": "gb",
+                    "logoImage": null,
+                    "contactPersonName": "Front Desk",
+                    "phone": " +44 (0) 207 484 5000",
+                    "email": "recep.strand@regus.com",
+                    "pricePackages": [],
+                    "packagePriceIncludesDelivery": null
+                }
+            ]
+        },
+        {
+            "id": 883,
+            "name": "Creative & Playfull Room Right in Covent Garden",
+            "status": 2,
+            "countryFullName": null,
+            "city": "England",
+            "mainPhotoUrl": "https://res.cloudinary.com/meetinkz-dev/image/upload/f_auto,q_auto/v1527285828/Venues/snnjkcyxynyacrwqkpkg.jpg",
+            "ratePerHour": 240.00,
+            "currency": 2,
+            "lat": 51.5135225,
+            "lon": -0.12687700000003118,
+            "maxParticipants": 35,
+            "ratingAvg": null,
+            "distance": 0.689727288158627,
+            "pricePackages": [],
+            "timeSlotsPricings": [],
+            "countryRegionId": null,
+            "relatedServiceProviders": [
+                {
+                    "id": 83,
+                    "name": "HSH - Covent Garden",
+                    "status": 2,
+                    "countryCode": "gb",
+                    "logoImage": null,
+                    "contactPersonName": "Liz Knibb / Eva Arnold ",
+                    "phone": "02072409836",
+                    "email": "coventgarden@homesweethomestudios.com",
+                    "pricePackages": [],
+                    "packagePriceIncludesDelivery": null
+                },
+                {
+                    "id": 114,
+                    "name": "Home Comforts",
+                    "status": 1,
+                    "countryCode": "gb",
+                    "logoImage": null,
+                    "contactPersonName": "Liz",
+                    "phone": "+44 20 7240 9836",
+                    "email": "coventgarden@homesweethomestudios.com",
+                    "pricePackages": [],
+                    "packagePriceIncludesDelivery": null
+                }
+            ]
+        },
+        {
+            "id": 890,
+            "name": "Cozy & Bright Room Right in Covent Garden",
+            "status": 2,
+            "countryFullName": null,
+            "city": "England",
+            "mainPhotoUrl": "https://res.cloudinary.com/meetinkz-dev/image/upload/f_auto,q_auto/v1527333495/Venues/nfviisznas5jesb40e80.jpg",
+            "ratePerHour": 158.00,
+            "currency": 2,
+            "lat": 51.5130025,
+            "lon": -0.12687700000003588,
+            "maxParticipants": 15,
+            "ratingAvg": null,
+            "distance": 0.689727288158627,
+            "pricePackages": [],
+            "timeSlotsPricings": [],
+            "countryRegionId": null,
+            "relatedServiceProviders": [
+                {
+                    "id": 83,
+                    "name": "HSH - Covent Garden",
+                    "status": 2,
+                    "countryCode": "gb",
+                    "logoImage": null,
+                    "contactPersonName": "Liz Knibb / Eva Arnold ",
+                    "phone": "02072409836",
+                    "email": "coventgarden@homesweethomestudios.com",
+                    "pricePackages": [],
+                    "packagePriceIncludesDelivery": null
+                },
+                {
+                    "id": 114,
+                    "name": "Home Comforts",
+                    "status": 1,
+                    "countryCode": "gb",
+                    "logoImage": null,
+                    "contactPersonName": "Liz",
+                    "phone": "+44 20 7240 9836",
+                    "email": "coventgarden@homesweethomestudios.com",
+                    "pricePackages": [],
+                    "packagePriceIncludesDelivery": null
+                }
+            ]
+        },
+        {
+            "id": 894,
+            "name": "Serene & Bright Room in Covent Garden",
+            "status": 2,
+            "countryFullName": null,
+            "city": "London",
+            "mainPhotoUrl": "https://res.cloudinary.com/meetinkz-dev/image/upload/f_auto,q_auto/v1527336450/Venues/qrejimujtattiblk1r3v.jpg",
+            "ratePerHour": 158.00,
+            "currency": 2,
+            "lat": 51.5109225,
+            "lon": -0.12147700000003588,
+            "maxParticipants": 12,
+            "ratingAvg": null,
+            "distance": 0.689727288158627,
+            "pricePackages": [],
+            "timeSlotsPricings": [],
+            "countryRegionId": null,
+            "relatedServiceProviders": [
+                {
+                    "id": 83,
+                    "name": "HSH - Covent Garden",
+                    "status": 2,
+                    "countryCode": "gb",
+                    "logoImage": null,
+                    "contactPersonName": "Liz Knibb / Eva Arnold ",
+                    "phone": "02072409836",
+                    "email": "coventgarden@homesweethomestudios.com",
+                    "pricePackages": [],
+                    "packagePriceIncludesDelivery": null
+                },
+                {
+                    "id": 114,
+                    "name": "Home Comforts",
+                    "status": 1,
+                    "countryCode": "gb",
+                    "logoImage": null,
+                    "contactPersonName": "Liz",
+                    "phone": "+44 20 7240 9836",
+                    "email": "coventgarden@homesweethomestudios.com",
+                    "pricePackages": [],
+                    "packagePriceIncludesDelivery": null
+                }
+            ]
+        },
+        {
+            "id": 895,
+            "name": "Relaxed Balcony Room in Covent Garden",
+            "status": 2,
+            "countryFullName": null,
+            "city": "London",
+            "mainPhotoUrl": "https://res.cloudinary.com/meetinkz-dev/image/upload/f_auto,q_auto/v1527337392/Venues/pcxrazfgxfrw0akysqgs.jpg",
+            "ratePerHour": 75.00,
+            "currency": 2,
+            "lat": 51.5135212,
+            "lon": -0.12639400000003588,
+            "maxParticipants": 10,
+            "ratingAvg": null,
+            "distance": 0.689727288158627,
+            "pricePackages": [],
+            "timeSlotsPricings": [],
+            "countryRegionId": null,
+            "relatedServiceProviders": [
+                {
+                    "id": 83,
+                    "name": "HSH - Covent Garden",
+                    "status": 2,
+                    "countryCode": "gb",
+                    "logoImage": null,
+                    "contactPersonName": "Liz Knibb / Eva Arnold ",
+                    "phone": "02072409836",
+                    "email": "coventgarden@homesweethomestudios.com",
+                    "pricePackages": [],
+                    "packagePriceIncludesDelivery": null
+                },
+                {
+                    "id": 114,
+                    "name": "Home Comforts",
+                    "status": 1,
+                    "countryCode": "gb",
+                    "logoImage": null,
+                    "contactPersonName": "Liz",
+                    "phone": "+44 20 7240 9836",
+                    "email": "coventgarden@homesweethomestudios.com",
+                    "pricePackages": [],
+                    "packagePriceIncludesDelivery": null
+                }
+            ]
+        },
+        {
+            "id": 978,
+            "name": "Two-Tone Minimalist Design Room in the Heart of Soho ",
+            "status": 2,
+            "countryFullName": "United Kingdom",
+            "city": "London",
+            "mainPhotoUrl": "https://res.cloudinary.com/meetinkz-dev/image/upload/f_auto,q_auto/v1528186635/Venue_978/2-Tone-Minimalist-Design-Room-in-the-Heart-of-Soho.jpg.jpg",
+            "ratePerHour": 114.00,
+            "currency": 2,
+            "lat": 51.514283,
+            "lon": -0.13489279999998871,
+            "maxParticipants": 18,
+            "ratingAvg": null,
+            "distance": 0.91641072839767512,
+            "pricePackages": [],
+            "timeSlotsPricings": [],
+            "countryRegionId": null,
+            "relatedServiceProviders": [
+                {
+                    "id": 78,
+                    "name": "TOG's Supplier - EAT FIRST",
+                    "status": 2,
+                    "countryCode": "gb",
+                    "logoImage": null,
+                    "contactPersonName": "Lily Price",
+                    "phone": "02039481078",
+                    "email": "lilyp@theofficegroup.co.uk ",
+                    "pricePackages": [
+                        {
+                            "id": 155,
+                            "relatedVenueId": null,
+                            "relatedServiceProviderId": 78,
+                            "type": 1,
+                            "name": "Full Day Bundle",
+                            "status": 2,
+                            "description": "<ul><li>Breakfast:<ul><li>1 Mini Pastry</li><li>1 Coffee or Tea and Kitkat</li><li>1 Pistachio &amp; Pecan Granola Yoghurt</li></ul></li><li>Snack:<ul><li>1 Mango &amp; Pineapple Fruit Pot with Lime</li></ul></li><li>Lunch:<ul><li>1 Chicken Caesar, Smoked Salmon or Ham &amp; Cheese Sandwich</li><li>1 Ten Acre Salted Crisps, Sweet Chilli Crisps, Salt &amp; Vinegar Crisps or Sweet and Salty Popcorn</li></ul></li></ul><p><br></p>",
+                            "minParticipants": 4,
+                            "minCharge": null,
+                            "pricesIncludeVenueRent": false,
+                            "tiers": [
+                                {
+                                    "id": 179,
+                                    "relatedPackageId": 155,
+                                    "fromParticipants": 1,
+                                    "toParticipants": 1000,
+                                    "pricePerParticipant": 23.00
+                                }
+                            ]
+                        },
+                        {
+                            "id": 156,
+                            "relatedVenueId": null,
+                            "relatedServiceProviderId": 78,
+                            "type": 1,
+                            "name": "Full Day Vegan Bundle",
+                            "status": 2,
+                            "description": "<ul><li>Breakfast:<ul><li>1 Soy Yoghurt with Cox Apple and Winter Berry</li><li>1 Coffee or Tea with Kitkat</li></ul></li><li>Snack:<ul><li>1 Mango &amp; Pineapple Fruit Pot with Lime</li></ul></li><li>Lunch:<ul><li>1 Sweet Potato and Beetroot Salad</li><li>1 Ten Acre Salted Crisps, Sweet Chilli Crisps, Salt &amp; Vinegar Crisps or Sweet &amp; Salty Popcorn</li></ul></li></ul><p><br></p>",
+                            "minParticipants": 4,
+                            "minCharge": null,
+                            "pricesIncludeVenueRent": false,
+                            "tiers": [
+                                {
+                                    "id": 180,
+                                    "relatedPackageId": 156,
+                                    "fromParticipants": 1,
+                                    "toParticipants": 1000,
+                                    "pricePerParticipant": 22.00
+                                }
+                            ]
+                        }
+                    ],
+                    "packagePriceIncludesDelivery": null
+                }
+            ]
+        },
+        {
+            "id": 979,
+            "name": "Round Table Meeting Room in the Heart of Soho ",
+            "status": 2,
+            "countryFullName": "United Kingdom",
+            "city": "London",
+            "mainPhotoUrl": "https://res.cloudinary.com/meetinkz-dev/image/upload/f_auto,q_auto/v1528186817/Venue_979/Round-Table-Meeting-Room-in-the-Heart-of-Soho.jpg.jpg",
+            "ratePerHour": 54.00,
+            "currency": 2,
+            "lat": 51.514283,
+            "lon": -0.13489279999998871,
+            "maxParticipants": 6,
+            "ratingAvg": null,
+            "distance": 0.91641072839767512,
+            "pricePackages": [],
+            "timeSlotsPricings": [],
+            "countryRegionId": null,
+            "relatedServiceProviders": [
+                {
+                    "id": 78,
+                    "name": "TOG's Supplier - EAT FIRST",
+                    "status": 2,
+                    "countryCode": "gb",
+                    "logoImage": null,
+                    "contactPersonName": "Lily Price",
+                    "phone": "02039481078",
+                    "email": "lilyp@theofficegroup.co.uk ",
+                    "pricePackages": [
+                        {
+                            "id": 155,
+                            "relatedVenueId": null,
+                            "relatedServiceProviderId": 78,
+                            "type": 1,
+                            "name": "Full Day Bundle",
+                            "status": 2,
+                            "description": "<ul><li>Breakfast:<ul><li>1 Mini Pastry</li><li>1 Coffee or Tea and Kitkat</li><li>1 Pistachio &amp; Pecan Granola Yoghurt</li></ul></li><li>Snack:<ul><li>1 Mango &amp; Pineapple Fruit Pot with Lime</li></ul></li><li>Lunch:<ul><li>1 Chicken Caesar, Smoked Salmon or Ham &amp; Cheese Sandwich</li><li>1 Ten Acre Salted Crisps, Sweet Chilli Crisps, Salt &amp; Vinegar Crisps or Sweet and Salty Popcorn</li></ul></li></ul><p><br></p>",
+                            "minParticipants": 4,
+                            "minCharge": null,
+                            "pricesIncludeVenueRent": false,
+                            "tiers": [
+                                {
+                                    "id": 179,
+                                    "relatedPackageId": 155,
+                                    "fromParticipants": 1,
+                                    "toParticipants": 1000,
+                                    "pricePerParticipant": 23.00
+                                }
+                            ]
+                        },
+                        {
+                            "id": 156,
+                            "relatedVenueId": null,
+                            "relatedServiceProviderId": 78,
+                            "type": 1,
+                            "name": "Full Day Vegan Bundle",
+                            "status": 2,
+                            "description": "<ul><li>Breakfast:<ul><li>1 Soy Yoghurt with Cox Apple and Winter Berry</li><li>1 Coffee or Tea with Kitkat</li></ul></li><li>Snack:<ul><li>1 Mango &amp; Pineapple Fruit Pot with Lime</li></ul></li><li>Lunch:<ul><li>1 Sweet Potato and Beetroot Salad</li><li>1 Ten Acre Salted Crisps, Sweet Chilli Crisps, Salt &amp; Vinegar Crisps or Sweet &amp; Salty Popcorn</li></ul></li></ul><p><br></p>",
+                            "minParticipants": 4,
+                            "minCharge": null,
+                            "pricesIncludeVenueRent": false,
+                            "tiers": [
+                                {
+                                    "id": 180,
+                                    "relatedPackageId": 156,
+                                    "fromParticipants": 1,
+                                    "toParticipants": 1000,
+                                    "pricePerParticipant": 22.00
+                                }
+                            ]
+                        }
+                    ],
+                    "packagePriceIncludesDelivery": null
+                }
+            ]
+        },
+        {
+            "id": 1319,
+            "name": "Serene Meeting Room in the Heart of Soho",
+            "status": 2,
+            "countryFullName": "United Kingdom",
+            "city": "London",
+            "mainPhotoUrl": "https://res.cloudinary.com/meetinkz-dev/image/upload/f_auto,q_auto/v1546773618/Venue_1319/Venue_1319_Copy-of-MR-2.jpg.jpg",
+            "ratePerHour": 54.00,
+            "currency": 2,
+            "lat": 51.514283,
+            "lon": -0.13489279999998871,
+            "maxParticipants": 6,
+            "ratingAvg": null,
+            "distance": 0.91641072839767512,
+            "pricePackages": [],
+            "timeSlotsPricings": [],
+            "countryRegionId": null,
+            "relatedServiceProviders": [
+                {
+                    "id": 78,
+                    "name": "TOG's Supplier - EAT FIRST",
+                    "status": 2,
+                    "countryCode": "gb",
+                    "logoImage": null,
+                    "contactPersonName": "Lily Price",
+                    "phone": "02039481078",
+                    "email": "lilyp@theofficegroup.co.uk ",
+                    "pricePackages": [
+                        {
+                            "id": 155,
+                            "relatedVenueId": null,
+                            "relatedServiceProviderId": 78,
+                            "type": 1,
+                            "name": "Full Day Bundle",
+                            "status": 2,
+                            "description": "<ul><li>Breakfast:<ul><li>1 Mini Pastry</li><li>1 Coffee or Tea and Kitkat</li><li>1 Pistachio &amp; Pecan Granola Yoghurt</li></ul></li><li>Snack:<ul><li>1 Mango &amp; Pineapple Fruit Pot with Lime</li></ul></li><li>Lunch:<ul><li>1 Chicken Caesar, Smoked Salmon or Ham &amp; Cheese Sandwich</li><li>1 Ten Acre Salted Crisps, Sweet Chilli Crisps, Salt &amp; Vinegar Crisps or Sweet and Salty Popcorn</li></ul></li></ul><p><br></p>",
+                            "minParticipants": 4,
+                            "minCharge": null,
+                            "pricesIncludeVenueRent": false,
+                            "tiers": [
+                                {
+                                    "id": 179,
+                                    "relatedPackageId": 155,
+                                    "fromParticipants": 1,
+                                    "toParticipants": 1000,
+                                    "pricePerParticipant": 23.00
+                                }
+                            ]
+                        },
+                        {
+                            "id": 156,
+                            "relatedVenueId": null,
+                            "relatedServiceProviderId": 78,
+                            "type": 1,
+                            "name": "Full Day Vegan Bundle",
+                            "status": 2,
+                            "description": "<ul><li>Breakfast:<ul><li>1 Soy Yoghurt with Cox Apple and Winter Berry</li><li>1 Coffee or Tea with Kitkat</li></ul></li><li>Snack:<ul><li>1 Mango &amp; Pineapple Fruit Pot with Lime</li></ul></li><li>Lunch:<ul><li>1 Sweet Potato and Beetroot Salad</li><li>1 Ten Acre Salted Crisps, Sweet Chilli Crisps, Salt &amp; Vinegar Crisps or Sweet &amp; Salty Popcorn</li></ul></li></ul><p><br></p>",
+                            "minParticipants": 4,
+                            "minCharge": null,
+                            "pricesIncludeVenueRent": false,
+                            "tiers": [
+                                {
+                                    "id": 180,
+                                    "relatedPackageId": 156,
+                                    "fromParticipants": 1,
+                                    "toParticipants": 1000,
+                                    "pricePerParticipant": 22.00
+                                }
+                            ]
+                        }
+                    ],
+                    "packagePriceIncludesDelivery": null
+                }
+            ]
+        },
+        {
+            "id": 1320,
+            "name": "Meeting Room in the Heart of Soho",
+            "status": 2,
+            "countryFullName": "United Kingdom",
+            "city": "London",
+            "mainPhotoUrl": "https://res.cloudinary.com/meetinkz-dev/image/upload/f_auto,q_auto/v1546773911/Venue_1320/Venue_1320_room-3.jpg.jpg",
+            "ratePerHour": 78.00,
+            "currency": 2,
+            "lat": 51.514283,
+            "lon": -0.13489279999998871,
+            "maxParticipants": 8,
+            "ratingAvg": null,
+            "distance": 0.91641072839767512,
+            "pricePackages": [],
+            "timeSlotsPricings": [],
+            "countryRegionId": null,
+            "relatedServiceProviders": [
+                {
+                    "id": 78,
+                    "name": "TOG's Supplier - EAT FIRST",
+                    "status": 2,
+                    "countryCode": "gb",
+                    "logoImage": null,
+                    "contactPersonName": "Lily Price",
+                    "phone": "02039481078",
+                    "email": "lilyp@theofficegroup.co.uk ",
+                    "pricePackages": [
+                        {
+                            "id": 155,
+                            "relatedVenueId": null,
+                            "relatedServiceProviderId": 78,
+                            "type": 1,
+                            "name": "Full Day Bundle",
+                            "status": 2,
+                            "description": "<ul><li>Breakfast:<ul><li>1 Mini Pastry</li><li>1 Coffee or Tea and Kitkat</li><li>1 Pistachio &amp; Pecan Granola Yoghurt</li></ul></li><li>Snack:<ul><li>1 Mango &amp; Pineapple Fruit Pot with Lime</li></ul></li><li>Lunch:<ul><li>1 Chicken Caesar, Smoked Salmon or Ham &amp; Cheese Sandwich</li><li>1 Ten Acre Salted Crisps, Sweet Chilli Crisps, Salt &amp; Vinegar Crisps or Sweet and Salty Popcorn</li></ul></li></ul><p><br></p>",
+                            "minParticipants": 4,
+                            "minCharge": null,
+                            "pricesIncludeVenueRent": false,
+                            "tiers": [
+                                {
+                                    "id": 179,
+                                    "relatedPackageId": 155,
+                                    "fromParticipants": 1,
+                                    "toParticipants": 1000,
+                                    "pricePerParticipant": 23.00
+                                }
+                            ]
+                        },
+                        {
+                            "id": 156,
+                            "relatedVenueId": null,
+                            "relatedServiceProviderId": 78,
+                            "type": 1,
+                            "name": "Full Day Vegan Bundle",
+                            "status": 2,
+                            "description": "<ul><li>Breakfast:<ul><li>1 Soy Yoghurt with Cox Apple and Winter Berry</li><li>1 Coffee or Tea with Kitkat</li></ul></li><li>Snack:<ul><li>1 Mango &amp; Pineapple Fruit Pot with Lime</li></ul></li><li>Lunch:<ul><li>1 Sweet Potato and Beetroot Salad</li><li>1 Ten Acre Salted Crisps, Sweet Chilli Crisps, Salt &amp; Vinegar Crisps or Sweet &amp; Salty Popcorn</li></ul></li></ul><p><br></p>",
+                            "minParticipants": 4,
+                            "minCharge": null,
+                            "pricesIncludeVenueRent": false,
+                            "tiers": [
+                                {
+                                    "id": 180,
+                                    "relatedPackageId": 156,
+                                    "fromParticipants": 1,
+                                    "toParticipants": 1000,
+                                    "pricePerParticipant": 22.00
+                                }
+                            ]
+                        }
+                    ],
+                    "packagePriceIncludesDelivery": null
+                }
+            ]
+        },
+        {
+            "id": 1321,
+            "name": "Meeting Room in the Heart of Soho",
+            "status": 2,
+            "countryFullName": "United Kingdom",
+            "city": "London",
+            "mainPhotoUrl": "https://res.cloudinary.com/meetinkz-dev/image/upload/f_auto,q_auto/v1546774139/Venue_1321/Venue_1321_MR-4.jpg.jpg",
+            "ratePerHour": 78.00,
+            "currency": 2,
+            "lat": 51.514283,
+            "lon": -0.13489279999998871,
+            "maxParticipants": 8,
+            "ratingAvg": null,
+            "distance": 0.91641072839767512,
+            "pricePackages": [],
+            "timeSlotsPricings": [],
+            "countryRegionId": null,
+            "relatedServiceProviders": [
+                {
+                    "id": 78,
+                    "name": "TOG's Supplier - EAT FIRST",
+                    "status": 2,
+                    "countryCode": "gb",
+                    "logoImage": null,
+                    "contactPersonName": "Lily Price",
+                    "phone": "02039481078",
+                    "email": "lilyp@theofficegroup.co.uk ",
+                    "pricePackages": [
+                        {
+                            "id": 155,
+                            "relatedVenueId": null,
+                            "relatedServiceProviderId": 78,
+                            "type": 1,
+                            "name": "Full Day Bundle",
+                            "status": 2,
+                            "description": "<ul><li>Breakfast:<ul><li>1 Mini Pastry</li><li>1 Coffee or Tea and Kitkat</li><li>1 Pistachio &amp; Pecan Granola Yoghurt</li></ul></li><li>Snack:<ul><li>1 Mango &amp; Pineapple Fruit Pot with Lime</li></ul></li><li>Lunch:<ul><li>1 Chicken Caesar, Smoked Salmon or Ham &amp; Cheese Sandwich</li><li>1 Ten Acre Salted Crisps, Sweet Chilli Crisps, Salt &amp; Vinegar Crisps or Sweet and Salty Popcorn</li></ul></li></ul><p><br></p>",
+                            "minParticipants": 4,
+                            "minCharge": null,
+                            "pricesIncludeVenueRent": false,
+                            "tiers": [
+                                {
+                                    "id": 179,
+                                    "relatedPackageId": 155,
+                                    "fromParticipants": 1,
+                                    "toParticipants": 1000,
+                                    "pricePerParticipant": 23.00
+                                }
+                            ]
+                        },
+                        {
+                            "id": 156,
+                            "relatedVenueId": null,
+                            "relatedServiceProviderId": 78,
+                            "type": 1,
+                            "name": "Full Day Vegan Bundle",
+                            "status": 2,
+                            "description": "<ul><li>Breakfast:<ul><li>1 Soy Yoghurt with Cox Apple and Winter Berry</li><li>1 Coffee or Tea with Kitkat</li></ul></li><li>Snack:<ul><li>1 Mango &amp; Pineapple Fruit Pot with Lime</li></ul></li><li>Lunch:<ul><li>1 Sweet Potato and Beetroot Salad</li><li>1 Ten Acre Salted Crisps, Sweet Chilli Crisps, Salt &amp; Vinegar Crisps or Sweet &amp; Salty Popcorn</li></ul></li></ul><p><br></p>",
+                            "minParticipants": 4,
+                            "minCharge": null,
+                            "pricesIncludeVenueRent": false,
+                            "tiers": [
+                                {
+                                    "id": 180,
+                                    "relatedPackageId": 156,
+                                    "fromParticipants": 1,
+                                    "toParticipants": 1000,
+                                    "pricePerParticipant": 22.00
+                                }
+                            ]
+                        }
+                    ],
+                    "packagePriceIncludesDelivery": null
+                }
+            ]
+        },
+        {
+            "id": 1360,
+            "name": "Meeting Room in the Heart of Soho",
+            "status": 2,
+            "countryFullName": "United Kingdom",
+            "city": "London",
+            "mainPhotoUrl": "https://res.cloudinary.com/meetinkz-dev/image/upload/f_auto,q_auto/v1547028808/Venue_1360/Venue_1360_1521733581077mr34.jpg.jpg",
+            "ratePerHour": 120.00,
+            "currency": 2,
+            "lat": 51.514283,
+            "lon": -0.13489279999998871,
+            "maxParticipants": 18,
+            "ratingAvg": null,
+            "distance": 0.91641072839767512,
+            "pricePackages": [],
+            "timeSlotsPricings": [],
+            "countryRegionId": null,
+            "relatedServiceProviders": [
+                {
+                    "id": 78,
+                    "name": "TOG's Supplier - EAT FIRST",
+                    "status": 2,
+                    "countryCode": "gb",
+                    "logoImage": null,
+                    "contactPersonName": "Lily Price",
+                    "phone": "02039481078",
+                    "email": "lilyp@theofficegroup.co.uk ",
+                    "pricePackages": [
+                        {
+                            "id": 155,
+                            "relatedVenueId": null,
+                            "relatedServiceProviderId": 78,
+                            "type": 1,
+                            "name": "Full Day Bundle",
+                            "status": 2,
+                            "description": "<ul><li>Breakfast:<ul><li>1 Mini Pastry</li><li>1 Coffee or Tea and Kitkat</li><li>1 Pistachio &amp; Pecan Granola Yoghurt</li></ul></li><li>Snack:<ul><li>1 Mango &amp; Pineapple Fruit Pot with Lime</li></ul></li><li>Lunch:<ul><li>1 Chicken Caesar, Smoked Salmon or Ham &amp; Cheese Sandwich</li><li>1 Ten Acre Salted Crisps, Sweet Chilli Crisps, Salt &amp; Vinegar Crisps or Sweet and Salty Popcorn</li></ul></li></ul><p><br></p>",
+                            "minParticipants": 4,
+                            "minCharge": null,
+                            "pricesIncludeVenueRent": false,
+                            "tiers": [
+                                {
+                                    "id": 179,
+                                    "relatedPackageId": 155,
+                                    "fromParticipants": 1,
+                                    "toParticipants": 1000,
+                                    "pricePerParticipant": 23.00
+                                }
+                            ]
+                        },
+                        {
+                            "id": 156,
+                            "relatedVenueId": null,
+                            "relatedServiceProviderId": 78,
+                            "type": 1,
+                            "name": "Full Day Vegan Bundle",
+                            "status": 2,
+                            "description": "<ul><li>Breakfast:<ul><li>1 Soy Yoghurt with Cox Apple and Winter Berry</li><li>1 Coffee or Tea with Kitkat</li></ul></li><li>Snack:<ul><li>1 Mango &amp; Pineapple Fruit Pot with Lime</li></ul></li><li>Lunch:<ul><li>1 Sweet Potato and Beetroot Salad</li><li>1 Ten Acre Salted Crisps, Sweet Chilli Crisps, Salt &amp; Vinegar Crisps or Sweet &amp; Salty Popcorn</li></ul></li></ul><p><br></p>",
+                            "minParticipants": 4,
+                            "minCharge": null,
+                            "pricesIncludeVenueRent": false,
+                            "tiers": [
+                                {
+                                    "id": 180,
+                                    "relatedPackageId": 156,
+                                    "fromParticipants": 1,
+                                    "toParticipants": 1000,
+                                    "pricePerParticipant": 22.00
+                                }
+                            ]
+                        }
+                    ],
+                    "packagePriceIncludesDelivery": null
+                }
+            ]
+        },
+        {
+            "id": 991,
+            "name": "Large & Modern Meeting Room in of Oxford Street",
+            "status": 2,
+            "countryFullName": "United Kingdom",
+            "city": "London",
+            "mainPhotoUrl": "https://res.cloudinary.com/meetinkz-dev/image/upload/f_auto,q_auto/v1528194052/Venue_991/Boardroom-Oxford-Street-London.JPG.jpg",
+            "ratePerHour": 234.00,
+            "currency": 2,
+            "lat": 51.5158718,
+            "lon": -0.13469080000004396,
+            "maxParticipants": 35,
+            "ratingAvg": null,
+            "distance": 1.0632060451408174,
+            "pricePackages": [],
+            "timeSlotsPricings": [],
+            "countryRegionId": null,
+            "relatedServiceProviders": [
+                {
+                    "id": 85,
+                    "name": "MSE",
+                    "status": 2,
+                    "countryCode": "gb",
+                    "logoImage": null,
+                    "contactPersonName": "Jennifer McIntyre",
+                    "phone": "020 3470 0295 / 020 7534 7152",
+                    "email": "jennifer@msemeetingrooms.co.uk",
+                    "pricePackages": [],
+                    "packagePriceIncludesDelivery": null
+                }
+            ]
+        },
+        {
+            "id": 992,
+            "name": "Interview Room in Oxford Street",
+            "status": 2,
+            "countryFullName": "United Kingdom",
+            "city": "London",
+            "mainPhotoUrl": "https://res.cloudinary.com/meetinkz-dev/image/upload/f_auto,q_auto/v1528196329/Venue_992/Interview-Room-Oxford-Street-London.JPG.jpg",
+            "ratePerHour": 72.00,
+            "currency": 2,
+            "lat": 51.5158718,
+            "lon": -0.13469080000004396,
+            "maxParticipants": 4,
+            "ratingAvg": null,
+            "distance": 1.0632060451408174,
+            "pricePackages": [],
+            "timeSlotsPricings": [],
+            "countryRegionId": null,
+            "relatedServiceProviders": [
+                {
+                    "id": 85,
+                    "name": "MSE",
+                    "status": 2,
+                    "countryCode": "gb",
+                    "logoImage": null,
+                    "contactPersonName": "Jennifer McIntyre",
+                    "phone": "020 3470 0295 / 020 7534 7152",
+                    "email": "jennifer@msemeetingrooms.co.uk",
+                    "pricePackages": [],
+                    "packagePriceIncludesDelivery": null
+                }
+            ]
+        },
+        {
+            "id": 993,
+            "name": "Spacious & Bright Meeting Room in Oxford Street",
+            "status": 2,
+            "countryFullName": "United Kingdom",
+            "city": "London",
+            "mainPhotoUrl": "https://res.cloudinary.com/meetinkz-dev/image/upload/f_auto,q_auto/v1528196174/Venue_993/Specious--Bright-Meeting-Room-in-of-Oxford-Street.JPG.jpg",
+            "ratePerHour": 132.00,
+            "currency": 2,
+            "lat": 51.5158718,
+            "lon": -0.13469080000004396,
+            "maxParticipants": 16,
+            "ratingAvg": null,
+            "distance": 1.0632060451408174,
+            "pricePackages": [],
+            "timeSlotsPricings": [],
+            "countryRegionId": null,
+            "relatedServiceProviders": [
+                {
+                    "id": 85,
+                    "name": "MSE",
+                    "status": 2,
+                    "countryCode": "gb",
+                    "logoImage": null,
+                    "contactPersonName": "Jennifer McIntyre",
+                    "phone": "020 3470 0295 / 020 7534 7152",
+                    "email": "jennifer@msemeetingrooms.co.uk",
+                    "pricePackages": [],
+                    "packagePriceIncludesDelivery": null
+                }
+            ]
+        },
+        {
+            "id": 994,
+            "name": "Specious Meeting Room in  Oxford Street",
+            "status": 2,
+            "countryFullName": "United Kingdom",
+            "city": "London",
+            "mainPhotoUrl": "https://res.cloudinary.com/meetinkz-dev/image/upload/f_auto,q_auto/v1528196963/Venue_994/Meeting-room-Oxford-Street-London.JPG.jpg",
+            "ratePerHour": 168.00,
+            "currency": 2,
+            "lat": 51.5158718,
+            "lon": -0.13469080000004396,
+            "maxParticipants": 20,
+            "ratingAvg": null,
+            "distance": 1.0632060451408174,
+            "pricePackages": [],
+            "timeSlotsPricings": [],
+            "countryRegionId": null,
+            "relatedServiceProviders": [
+                {
+                    "id": 85,
+                    "name": "MSE",
+                    "status": 2,
+                    "countryCode": "gb",
+                    "logoImage": null,
+                    "contactPersonName": "Jennifer McIntyre",
+                    "phone": "020 3470 0295 / 020 7534 7152",
+                    "email": "jennifer@msemeetingrooms.co.uk",
+                    "pricePackages": [],
+                    "packagePriceIncludesDelivery": null
+                }
+            ]
+        },
+        {
+            "id": 995,
+            "name": "Extra Large Meeting Room in Oxford Street",
+            "status": 2,
+            "countryFullName": "United Kingdom",
+            "city": "London",
+            "mainPhotoUrl": "https://res.cloudinary.com/meetinkz-dev/image/upload/f_auto,q_auto/v1528197692/Venue_995/meeting-room-oxford-street-london---Cabaret-Style.jpg.jpg",
+            "ratePerHour": 288.00,
+            "currency": 2,
+            "lat": 51.5158718,
+            "lon": -0.13469080000004396,
+            "maxParticipants": 106,
+            "ratingAvg": null,
+            "distance": 1.0632060451408174,
+            "pricePackages": [],
+            "timeSlotsPricings": [],
+            "countryRegionId": null,
+            "relatedServiceProviders": [
+                {
+                    "id": 85,
+                    "name": "MSE",
+                    "status": 2,
+                    "countryCode": "gb",
+                    "logoImage": null,
+                    "contactPersonName": "Jennifer McIntyre",
+                    "phone": "020 3470 0295 / 020 7534 7152",
+                    "email": "jennifer@msemeetingrooms.co.uk",
+                    "pricePackages": [],
+                    "packagePriceIncludesDelivery": null
+                }
+            ]
+        },
+        {
+            "id": 996,
+            "name": "Bright Interview Room in Oxford Street",
+            "status": 2,
+            "countryFullName": "United Kingdom",
+            "city": "London",
+            "mainPhotoUrl": "https://res.cloudinary.com/meetinkz-dev/image/upload/f_auto,q_auto/v1528198314/Venue_996/Interview-Room-Oxford-Street-London.JPG.jpg",
+            "ratePerHour": 72.00,
+            "currency": 2,
+            "lat": 51.5158718,
+            "lon": -0.13469080000004396,
+            "maxParticipants": 4,
+            "ratingAvg": null,
+            "distance": 1.0632060451408174,
+            "pricePackages": [],
+            "timeSlotsPricings": [],
+            "countryRegionId": null,
+            "relatedServiceProviders": [
+                {
+                    "id": 85,
+                    "name": "MSE",
+                    "status": 2,
+                    "countryCode": "gb",
+                    "logoImage": null,
+                    "contactPersonName": "Jennifer McIntyre",
+                    "phone": "020 3470 0295 / 020 7534 7152",
+                    "email": "jennifer@msemeetingrooms.co.uk",
+                    "pricePackages": [],
+                    "packagePriceIncludesDelivery": null
+                }
+            ]
+        },
+        {
+            "id": 997,
+            "name": "Bright Meeting Room in Oxford Street",
+            "status": 2,
+            "countryFullName": "United Kingdom",
+            "city": "London",
+            "mainPhotoUrl": "https://res.cloudinary.com/meetinkz-dev/image/upload/f_auto,q_auto/v1528198932/Venue_997/meeting-room-oxford-street-london---U-Shape-Style.JPG.jpg",
+            "ratePerHour": 132.00,
+            "currency": 2,
+            "lat": 51.5158718,
+            "lon": -0.13469080000004396,
+            "maxParticipants": 16,
+            "ratingAvg": null,
+            "distance": 1.0632060451408174,
+            "pricePackages": [],
+            "timeSlotsPricings": [],
+            "countryRegionId": null,
+            "relatedServiceProviders": [
+                {
+                    "id": 85,
+                    "name": "MSE",
+                    "status": 2,
+                    "countryCode": "gb",
+                    "logoImage": null,
+                    "contactPersonName": "Jennifer McIntyre",
+                    "phone": "020 3470 0295 / 020 7534 7152",
+                    "email": "jennifer@msemeetingrooms.co.uk",
+                    "pricePackages": [],
+                    "packagePriceIncludesDelivery": null
+                }
+            ]
+        },
+        {
+            "id": 998,
+            "name": "Efficient Meeting Room in Oxford Street",
+            "status": 2,
+            "countryFullName": "United Kingdom",
+            "city": "London",
+            "mainPhotoUrl": "https://res.cloudinary.com/meetinkz-dev/image/upload/f_auto,q_auto/v1528199512/Venue_998/meeting-room-oxfor-street-london---Boardroom-Style.JPG.jpg",
+            "ratePerHour": 168.00,
+            "currency": 2,
+            "lat": 51.5158718,
+            "lon": -0.13469080000004396,
+            "maxParticipants": 20,
+            "ratingAvg": null,
+            "distance": 1.0632060451408174,
+            "pricePackages": [],
+            "timeSlotsPricings": [],
+            "countryRegionId": null,
+            "relatedServiceProviders": [
+                {
+                    "id": 85,
+                    "name": "MSE",
+                    "status": 2,
+                    "countryCode": "gb",
+                    "logoImage": null,
+                    "contactPersonName": "Jennifer McIntyre",
+                    "phone": "020 3470 0295 / 020 7534 7152",
+                    "email": "jennifer@msemeetingrooms.co.uk",
+                    "pricePackages": [],
+                    "packagePriceIncludesDelivery": null
+                }
+            ]
+        },
+        {
+            "id": 999,
+            "name": "Productive Meeting Room in Oxford Street",
+            "status": 2,
+            "countryFullName": "United Kingdom",
+            "city": "London",
+            "mainPhotoUrl": "https://res.cloudinary.com/meetinkz-dev/image/upload/f_auto,q_auto/v1528202064/Venue_999/meeting-room-oxford-street-london---Boardroom-Style.JPG.jpg",
+            "ratePerHour": 234.00,
+            "currency": 2,
+            "lat": 51.5158718,
+            "lon": -0.13469080000004396,
+            "maxParticipants": 33,
+            "ratingAvg": null,
+            "distance": 1.0632060451408174,
+            "pricePackages": [],
+            "timeSlotsPricings": [],
+            "countryRegionId": null,
+            "relatedServiceProviders": [
+                {
+                    "id": 85,
+                    "name": "MSE",
+                    "status": 2,
+                    "countryCode": "gb",
+                    "logoImage": null,
+                    "contactPersonName": "Jennifer McIntyre",
+                    "phone": "020 3470 0295 / 020 7534 7152",
+                    "email": "jennifer@msemeetingrooms.co.uk",
+                    "pricePackages": [],
+                    "packagePriceIncludesDelivery": null
+                }
+            ]
+        },
+        {
+            "id": 1000,
+            "name": "Bright Meeting Room in Oxford Street",
+            "status": 2,
+            "countryFullName": "United Kingdom",
+            "city": "London",
+            "mainPhotoUrl": "https://res.cloudinary.com/meetinkz-dev/image/upload/f_auto,q_auto/v1528203213/Venue_1000/meeting-room-oxford-street-london---Cabaret-Style.JPG.jpg",
+            "ratePerHour": 198.00,
+            "currency": 2,
+            "lat": 51.5158718,
+            "lon": -0.13469080000004396,
+            "maxParticipants": 30,
+            "ratingAvg": null,
+            "distance": 1.0632060451408174,
+            "pricePackages": [],
+            "timeSlotsPricings": [],
+            "countryRegionId": null,
+            "relatedServiceProviders": [
+                {
+                    "id": 85,
+                    "name": "MSE",
+                    "status": 2,
+                    "countryCode": "gb",
+                    "logoImage": null,
+                    "contactPersonName": "Jennifer McIntyre",
+                    "phone": "020 3470 0295 / 020 7534 7152",
+                    "email": "jennifer@msemeetingrooms.co.uk",
+                    "pricePackages": [],
+                    "packagePriceIncludesDelivery": null
+                }
+            ]
+        },
+        {
+            "id": 1001,
+            "name": "Productive Meeting Room in Oxford Street",
+            "status": 2,
+            "countryFullName": "United Kingdom",
+            "city": "London",
+            "mainPhotoUrl": "https://res.cloudinary.com/meetinkz-dev/image/upload/f_auto,q_auto/v1528203893/Venue_1001/London---Boardroom-Style.JPG.jpg",
+            "ratePerHour": 168.00,
+            "currency": 2,
+            "lat": 51.5158718,
+            "lon": -0.13469080000004396,
+            "maxParticipants": 20,
+            "ratingAvg": null,
+            "distance": 1.0632060451408174,
+            "pricePackages": [],
+            "timeSlotsPricings": [],
+            "countryRegionId": null,
+            "relatedServiceProviders": [
+                {
+                    "id": 85,
+                    "name": "MSE",
+                    "status": 2,
+                    "countryCode": "gb",
+                    "logoImage": null,
+                    "contactPersonName": "Jennifer McIntyre",
+                    "phone": "020 3470 0295 / 020 7534 7152",
+                    "email": "jennifer@msemeetingrooms.co.uk",
+                    "pricePackages": [],
+                    "packagePriceIncludesDelivery": null
+                }
+            ]
+        }
+    ],
+    "p": []
+}

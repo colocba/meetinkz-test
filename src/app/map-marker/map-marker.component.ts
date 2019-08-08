@@ -12,7 +12,7 @@ export class MapMarkerComponent implements OnInit {
   constructor(private highligther: HighlighterService, private _scrollToService: ScrollToService) { }
   @Input() marker: MarkerInput;
   iconUrl = "./assets/smallIcon.png"
-  private isClicked = false
+  isClicked = false
 
 
   ngOnInit() {
@@ -45,5 +45,11 @@ export interface MarkerInput {
   lat: number,
   lon: number,
   name: string,
-  id: string
+  id: string,
+  currency: string,
+  ratePerHour: number,
+  maxParticipants: number,
+  city: string,
+  countryFullName: string,
+  mainPhotoUrl: string
 }
