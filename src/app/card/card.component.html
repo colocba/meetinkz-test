@@ -3,11 +3,16 @@
         <div class="img-div">
             <img class="card-img-top fixed-size" src="{{venueObject.mainPhotoUrl}}" alt="">
             <!-- <h4 class="bottom-right"></h4> -->
-            <p class="bottom-right price-label">{{venueObject.currency | toCurrency}}{{venueObject.ratePerHour}} / per hour.</p>
-            <h5 class="top-left max-people-label"><i class="fas fa-user-friends"></i> {{venueObject.maxParticipants}}</h5>
+            <p class="bottom-right price-label bg-label-opac">{{venueObject.currency | toCurrency}}{{venueObject.ratePerHour}} / per hour.</p>
+            <h5 class="top-left max-people-label bg-label-opac"><i class="fas fa-user-friends"></i> {{venueObject.maxParticipants}}</h5>
         </div>
         <div class="card-body">
             <p>{{venueObject.name}}</p>
+            <ngb-rating [(rate)]="rating" [readonly]="readonlyRating">
+                <ng-template>
+                    <span class="star">&#9733;</span>
+                </ng-template>
+            </ngb-rating>
         </div>
         <div class="card-footer text-muted">
             <p><span><i class="fas fa-map-marker-alt margin-right-10"></i></span>{{venueObject.city}}, {{venueObject.countryFullName}}</p>

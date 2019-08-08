@@ -2,7 +2,7 @@
     margin-right: 10px;
 }
 
-.add-filters-button i {
+.add-filters-button i,h5 {
     color: var(--app-color);
     cursor: pointer;
 }

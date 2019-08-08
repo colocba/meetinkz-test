@@ -13,6 +13,10 @@ export class CardComponent implements OnInit {
 
   @Input() venueObject: MarkerInput;
   isClicked = false;
+  rating = 8;
+  readonlyRating = true;
+  
+  // Dynamic styles for changing the borders in case it was clicked
   shadowedCard = {
     'border': '1px solid var(--app-color)',
     '-webkit-box-shadow': '0px 0px 10px 8px rgba(0,0,0,0.75)',
@@ -29,12 +33,15 @@ export class CardComponent implements OnInit {
     this.highligther.coords$.subscribe(coord => this.highlightThisCardIfNecesary(coord))
   }
 
+  // After receiving a card data update, we check if is this card data.
+  // If yes, we highlight.
   highlightThisCardIfNecesary(coord) {
     if (this.venueObject.lat === coord.latitude && this.venueObject.lon == coord.longitude && this.venueObject.name == coord.name) {
       this.isClicked = !this.isClicked;
     }
   }
 
+  // Passing this card data to the highlighter service
   cardClicked(card) {
     this.highligther.passCoordinatesToOtherComponent({
       latitude: card.venueObject.lat,

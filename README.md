@@ -1,27 +1,66 @@
-# MeetinkzPractice
+# Meetinkz test
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.6.
 
-## Development server
+## App architecture seperated by components
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- Main app
+  - Navbar Component
+  - Venue Cards Component
+    - Filtering elements component
+    - Cards component
+      - Card component (n components like this being n the amount of json obects from api)
+  - Map Component
+    - Map marker component (n components like this being n the amount of json obects from api)
 
-## Code scaffolding
+## Services and pipes
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Api venues service
 
-## Build
+There are multiple purposes of this service:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+* Getting the whole data from the api provided by Amidan with http request and passing it to the **Cards component** and to the **Map component** for them to display the data on their respective views.
 
-## Running unit tests
+* Receiving filter properties from the **Filtering elements component**, filters the data and updates the **Cards component** and **Map component** for updating their view.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+* Pass sort type for sorting purposes from **Filtering elements component** to **Cards component**.
+Note: The sorting will be done at the **Cards component** and not at the service.
 
-## Running end-to-end tests
+### Highlighter service
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+The main purpose of this service is to receive the coordinates and name of a clicked card/marker and pass them to the other component so we can highlight it / make a bouncing effect.
 
-## Further help
+### To currency pipe
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+This pipe will get the currency `number` and transform it to the corresponding `char` symbol.
+
+## Tech stack
+
+1. Angular 8
+2. Bootstrap
+3. Agm (Google maps)
+
+## External Api's
+
+- Angular Material
+  For making the app prettier
+- ngx-scroll-to
+  Makes the effect of scrolling
+- @ng-bootstrap
+  For the stars rating in the card. Yes, it was totally necesary add an entire module for that...
+
+## Time spend
+
+Although we have talk in the interview about " a two hours job " it has took me 8 hours ~.
+I think the time was well spent since I had made a total module division where each part of the app is a seperate component. Which is exactly the main Angular idea.
+Therefore, I had to make a bunch of services for the comunication between them.
+
+Learning all the new stuff took me a while as well like making a new api key for google maps, learning their Api and even making a document like this one is not easy :)
+
+## URL
+
+You can enter the app hosted by Github pages [by clicking here](https://colocba.github.io/meetinkz-test/)
+
+## Source code
+
+You can find the source code in the `/src` folder on this repository

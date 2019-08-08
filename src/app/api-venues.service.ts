@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { BehaviorSubject } from 'rxjs';
+import { MarkerInput } from './map-marker/map-marker.component';
 
 @Injectable({
   providedIn: 'root'
@@ -13,8 +14,11 @@ export class ApiVenuesService {
   
   private originalVenuesRaw = [] // This variable contains r original array
   private filteredVenuesRaw = [] // This variable contains r array filtered
-  private venuesSource = new BehaviorSubject<object[]>(this.filteredVenuesRaw);
-  filteredVenues = this.venuesSource.asObservable(); // This is the observable of the source
+  private initialTypeSorting: string = undefined;
+  private venuesSource = new BehaviorSubject<MarkerInput[]>(this.filteredVenuesRaw);
+  private sortSource = new BehaviorSubject<string>(this.initialTypeSorting)
+  filteredVenues = this.venuesSource.asObservable(); // This is the observable of the filter source
+  typeSorting = this.sortSource.asObservable(); // This is the the observable of the sort source
 
   constructor(private http: HttpClient) {
     this.http.get<any>(this.apiUrl).subscribe(venues => this.initializeOriginalSource(venues.r))
@@ -31,6 +35,11 @@ export class ApiVenuesService {
     this.filterOriginalSource(this.originalVenuesRaw.filter(obj => this.fillFilterConditions(obj,filterObject)))
   }
 
+  // Updating the listener
+  sortData(typeSorting) {
+    this.sortSource.next(typeSorting);
+  }
+
   // Filtering from original data
   private filterOriginalSource(venues) {
     this.venuesSource.next(venues)
@@ -38,9 +47,18 @@ export class ApiVenuesService {
 
   // Function for filtering each obj from the array returning true if fullfills the filter conditions
   private fillFilterConditions(obj,filterObject) {
-    return obj.name.includes(filterObject.name) 
-    // && (this.distance(obj.lat, obj.lon, this.initialLatitude, this.initialLongitude) < filterObject.radius)
-    && true
+    console.log(obj, filterObject);
+    if (filterObject.name == undefined && filterObject.radius != undefined) {
+      return this.distance(obj.lat, obj.lon, this.initialLatitude, this.initialLongitude) < filterObject.radius;
+    } else if (filterObject.name != undefined && filterObject.radius == undefined) {
+      return obj.name.includes(filterObject.name)   
+    } else if (filterObject.name == undefined && filterObject.radius == undefined) {
+      return true;
+    } else {
+      return obj.name.includes(filterObject.name) 
+      && (this.distance(obj.lat, obj.lon, this.initialLatitude, this.initialLongitude) < filterObject.radius)
+    }
+    
   }
 
   // Function that calculates the distance between two points in km

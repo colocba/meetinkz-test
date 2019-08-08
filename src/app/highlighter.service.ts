@@ -16,11 +16,13 @@ export class HighlighterService {
 
   constructor() { }
 
+  // Function for updating the coordinate source so the other component can be updated
   passCoordinatesToOtherComponent(coords) {
     this.coordinateSource.next(coords);
   }
 }
 
+// For compilation error purposes
 export interface Coordinate {
   latitude: number;
   longitude: number;

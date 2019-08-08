@@ -16,20 +16,21 @@ export class MapMarkerComponent implements OnInit {
 
 
   ngOnInit() {
-    this.highligther.coords$.subscribe(coord => this.highlightThisCardIfNecesary(coord))
+    this.highligther.coords$.subscribe(coord => this.highlightThisMarkerIfNecesary(coord))
   }
 
-  highlightThisCardIfNecesary(coord) {
+  // We will make a bounce effect if this coord has been choosen on the cards component
+  highlightThisMarkerIfNecesary(coord) {
     if (this.marker.lat === coord.latitude && this.marker.lon == coord.longitude && this.marker.name === coord.name) {
       this.isClicked = !this.isClicked;
     }
   }
 
+  // If this marker has been clicked, we have to inform the cards component so it can be highlighted
   markerClicked(event) {
-    // Scroll to marker.id
     const config: ScrollToConfigOptions = {
       target: this.marker.id,
-      offset: -250
+      offset: -300
     };
     this._scrollToService.scrollTo(config);
     this.highligther.passCoordinatesToOtherComponent({
@@ -41,6 +42,7 @@ export class MapMarkerComponent implements OnInit {
 
 }
 
+// Interface for compilation error purposes
 export interface MarkerInput {
   lat: number,
   lon: number,

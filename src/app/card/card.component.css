@@ -19,6 +19,16 @@
     text-shadow: 2px 2px 4px #000000;
 }
 
+.bg-label-opac {
+    background-color: black;
+    opacity: 0.8;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 0px solid #000000;
+    padding: 5px;
+}
+
 .top-left {
     position: absolute;
     top: 8px;
@@ -38,10 +48,15 @@
     cursor: pointer;
 }
 
+.star {
+    font-size: 1.5rem;
+    color: gold;
+  }
+
 .card:hover {
-    -webkit-box-shadow: 0px 0px 4px 5px rgba(0,0,0,0.75) !important;
--moz-box-shadow: 0px 0px 4px 5px rgba(0,0,0,0.75) !important;
-box-shadow: 0px 0px 4px 5px rgba(0,0,0,0.75) !important;
+    -webkit-box-shadow: 0px 0px 4px 5px var(--app-color) !important;
+    -moz-box-shadow: 0px 0px 4px 5px var(--app-color) !important;
+    box-shadow: 0px 0px 4px 5px var(--app-color) !important;
 }
 
 .card-footer {
