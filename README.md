@@ -44,6 +44,8 @@ This pipe will get the currency `number` and transform it to the corresponding `
 
 - Angular Material
   For making the app prettier
+- Animate.css
+  Makes the left and right fade in of the cards
 - ngx-scroll-to
   Makes the effect of scrolling
 - @ng-bootstrap

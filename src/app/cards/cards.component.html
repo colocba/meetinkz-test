@@ -4,15 +4,15 @@
             <div *ngFor="let venue of currentVenues; let i = index">
                     <div *ngIf="i%2 == 0" class="row">
                         <div *ngIf="i < currentVenues.length">
-                            <app-card style="float: left" [venueObject]="currentVenues[i]"></app-card>
+                            <app-card class="animated fadeInLeftBig" style="float: left" [venueObject]="currentVenues[i]"></app-card>
                         </div>
                         <div *ngIf="i + 1 < currentVenues.length">
-                            <app-card style="float: right" [venueObject]="currentVenues[i+1]"></app-card>
+                            <app-card class="animated fadeInRightBig" style="float: right" [venueObject]="currentVenues[i+1]"></app-card>
                         </div>
                     </div>
                 </div>
     </ng-template>
     <ng-template #noResult>
-        <h4>Sorry, there are no results with those preferences</h4>
+        <h4 style="text-align: center">Sorry, there are no results with those preferences</h4>
     </ng-template>
 </div>
