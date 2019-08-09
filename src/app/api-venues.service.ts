@@ -47,7 +47,6 @@ export class ApiVenuesService {
 
   // Function for filtering each obj from the array returning true if fullfills the filter conditions
   private fillFilterConditions(obj,filterObject) {
-    console.log(obj, filterObject);
     if (filterObject.name == undefined && filterObject.radius != undefined) {
       return this.distance(obj.lat, obj.lon, this.initialLatitude, this.initialLongitude) < filterObject.radius;
     } else if (filterObject.name != undefined && filterObject.radius == undefined) {

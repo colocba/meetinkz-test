@@ -7,6 +7,7 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatInputModule} from '@angular/material';
 import {MatSelectModule} from '@angular/material/select';
 import {MatRadioModule} from '@angular/material/radio';
+import {MatProgressSpinnerModule} from '@angular/material/progress-spinner'
 import { FormsModule } from '@angular/forms';
 import { AgmCoreModule } from '@agm/core';
 import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
@@ -44,6 +45,7 @@ import { MapMarkerComponent } from './map-marker/map-marker.component';
     MatInputModule,
     MatSelectModule,
     MatRadioModule,
+    MatProgressSpinnerModule,
     FormsModule,
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyBP2nV-KMXUD2v6m-nP9HGTDS0AFnuMrD4'

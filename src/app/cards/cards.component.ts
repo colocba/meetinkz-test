@@ -10,7 +10,8 @@ import { MarkerInput } from '../map-marker/map-marker.component';
 })
 export class CardsComponent implements OnInit {
 
-  currentVenues: MarkerInput[];
+  currentVenues: MarkerInput[] = []
+  venuesLoaded = false;
   sortByType: string = undefined;
   constructor(private venueApi: ApiVenuesService) { }
 
@@ -30,6 +31,10 @@ export class CardsComponent implements OnInit {
   // Show data when receiving updates form db
   private showData(venues) {
     this.currentVenues = venues
+    if (this.currentVenues.length != 0) {
+      this.venuesLoaded = true;
+    }
+    console.log(this.currentVenues.length, this.venuesLoaded)
     if (this.sortByType != undefined) {
       this.sortDataByType(this.sortByType);
     }

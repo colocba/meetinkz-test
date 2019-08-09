@@ -30,7 +30,7 @@ export class MapMarkerComponent implements OnInit {
   markerClicked(event) {
     const config: ScrollToConfigOptions = {
       target: this.marker.id,
-      offset: -300
+      offset: -230
     };
     this._scrollToService.scrollTo(config);
     this.highligther.passCoordinatesToOtherComponent({

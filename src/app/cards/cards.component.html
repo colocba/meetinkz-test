@@ -1,18 +1,20 @@
 <div class="container">
-    <div *ngIf="currentVenues.length != 0; then cardsBlock; else noResult"></div>
-    <ng-template #cardsBlock>
+    <ng-template [ngIf]="currentVenues.length != 0 && venuesLoaded">
             <div *ngFor="let venue of currentVenues; let i = index">
                     <div *ngIf="i%2 == 0" class="row">
                         <div *ngIf="i < currentVenues.length">
-                            <app-card class="animated fadeInLeftBig" style="float: left" [venueObject]="currentVenues[i]"></app-card>
+                            <app-card class="animated fadeInLeftBig" [id]="currentVenues[i].id" style="float: left" [venueObject]="currentVenues[i]"></app-card>
                         </div>
                         <div *ngIf="i + 1 < currentVenues.length">
-                            <app-card class="animated fadeInRightBig" style="float: right" [venueObject]="currentVenues[i+1]"></app-card>
+                            <app-card class="animated fadeInRightBig" [id]="currentVenues[i+1].id" style="float: right" [venueObject]="currentVenues[i+1]"></app-card>
                         </div>
                     </div>
                 </div>
     </ng-template>
-    <ng-template #noResult>
+    <ng-template [ngIf]="currentVenues.length == 0 && venuesLoaded">
         <h4 style="text-align: center">Sorry, there are no results with those preferences</h4>
+    </ng-template>
+    <ng-template [ngIf]="currentVenues.length == 0 && !venuesLoaded">
+        <mat-spinner style="margin-left: auto; margin-right: auto;"></mat-spinner>
     </ng-template>
 </div>
